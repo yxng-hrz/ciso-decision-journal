@@ -1,33 +1,22 @@
-# CISO Decision Journal & Risk Mapping
+# CISO Real-World Portfolio (Complete)
 
-## Overview
-This repository presents a **complete, realistic CISO-level governance project**.
-It demonstrates how cybersecurity decisions are made at executive level under
-business, regulatory, and budget constraints.
+This repository is a **full, end-to-end CISO portfolio** combining:
+- cybersecurity governance documents
+- executive decision records
+- risk management artifacts
+- light but meaningful supporting code
 
-This is **not a technical tooling project**.
-It is a **decision, risk, and leadership project**.
+This project demonstrates how a **technical background evolves into CISO-level leadership**.
 
-## Objectives
-- Demonstrate risk-based security governance
-- Show executive communication skills
-- Illustrate realistic trade-offs and accountability
-- Position the author for RSSI / CISO roles
+> A CISO does not eliminate risk.  
+> A CISO makes risk visible, understandable, and consciously accepted.
 
-## Company Context (Fictional)
-- B2B SaaS company
-- 120 employees
-- EU-based cloud hosting
-- Processes personal and contractual data
-- Strong growth and customer pressure
+---
 
 ## Repository Structure
-- `risk-mapping.md` – Enterprise risk assessment
-- `ciso-decision-journal.md` – Executive security decisions
-- `incident-response-case.md` – Major cyber crisis simulation
-- `comex-security-dashboard.md` – Board-level security view
-- `security-roadmap.md` – 12-month strategic roadmap
 
-## Core Philosophy
-> Security is a business enabler, not a blocker.
-> The role of the CISO is to manage risk, not eliminate it.
+- Governance & strategy (.md)
+- Machine-readable risk data (.json)
+- Decision-support tooling (Python)
+
+This is a **realistic simulation of a CISO role in a growing SaaS company**.

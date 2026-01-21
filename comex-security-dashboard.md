@@ -1,18 +1,13 @@
 # COMEX Security Dashboard
 
-## Global Security Posture
-- Overall Risk Level: Medium
-- Critical Risks Controlled: Yes
+## Global Posture
+- Overall Cyber Risk: Medium
+- Critical Risks: Identified and managed
 - Regulatory Exposure: Moderate
 
-## Key Indicators
-- Phishing success rate: Decreasing
-- Backup recovery success: 100%
-- Major incidents YTD: 1
-
 ## Decisions Required
-- Approve monitoring budget increase
-- Validate security roadmap priorities
+- Validate accepted risks
+- Approve security roadmap
 
 ## CISO Message
-Security risks are under control but require continuous investment.
+Security risk is controlled but requires continuous attention.

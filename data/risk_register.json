@@ -1,0 +1,20 @@
+[
+  {
+    "id": "R1",
+    "name": "Ransomware on production",
+    "likelihood": 3,
+    "impact": 5,
+    "owner": "CEO",
+    "treatment": "Reduce",
+    "status": "Active"
+  },
+  {
+    "id": "R2",
+    "name": "Data breach via compromised account",
+    "likelihood": 4,
+    "impact": 4,
+    "owner": "Board",
+    "treatment": "Reduce",
+    "status": "Active"
+  }
+]

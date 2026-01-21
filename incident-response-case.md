@@ -1,26 +1,19 @@
 # Incident Response Case – Ransomware
 
-## Scenario
-A ransomware attack encrypts production systems.
+## Scenario Overview
+A ransomware attack encrypts production systems, impacting availability.
 
 ## Timeline
-- Day 0: Suspicious activity detected
+- Day 0: Suspicious behavior detected
 - Day 1: Encryption confirmed
 - Day 1 +2h: Crisis committee activated
 - Day 2: Systems isolated
-- Day 3: Recovery from backups
+- Day 3: Restoration from backups
 
 ## Key Decisions
 - No ransom payment
-- Immediate customer communication
-- Law enforcement involvement
+- Law enforcement notified
+- Controlled customer communication
 
-## Communication
-- Internal briefing
-- Customer notification
-- Regulator prepared statement
-
-## Lessons Learned
-- Improve detection
-- Harden backups
-- Update incident playbooks
+## Outcome
+Operations restored, customer trust preserved.

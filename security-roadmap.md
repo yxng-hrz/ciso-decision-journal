@@ -1,23 +1,20 @@
 # 12-Month Security Roadmap
 
-## Q1
+## Q1 – Foundations
 - Risk assessment
-- MFA deployment
-- Incident response procedures
+- MFA rollout
+- Incident procedures
 
-## Q2
+## Q2 – Resilience & Compliance
 - Backup hardening
-- GDPR compliance review
+- GDPR gap analysis
 
-## Q3
+## Q3 – Governance
 - Third-party risk management
-- Crisis simulation exercise
+- Crisis simulation
 
-## Q4
-- Metrics improvement
-- External security audit
+## Q4 – Maturity
+- Metrics refinement
+- External audit
 
-## Success Criteria
-- Reduced critical risk exposure
-- Improved executive visibility
-- Regulatory readiness
+Success measured by reduced critical risk exposure and improved executive visibility.

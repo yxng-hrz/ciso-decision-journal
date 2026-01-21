@@ -1,0 +1,9 @@
+[
+  {
+    "risk_id": "A2",
+    "description": "No 24/7 SOC",
+    "justification": "Cost vs maturity mismatch",
+    "owner": "Executive Committee",
+    "review": "Q4"
+  }
+]
