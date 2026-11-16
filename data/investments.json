@@ -1,0 +1,65 @@
+[
+  {
+    "id": "INV-1",
+    "name": "Managed detection & response (24/7)",
+    "annual_cost_eur": 85000,
+    "risks": [
+      "R1",
+      "R9"
+    ],
+    "sle_eur": 1200000,
+    "aro_before": 0.25,
+    "aro_after": 0.12,
+    "decision": "DEC-007"
+  },
+  {
+    "id": "INV-2",
+    "name": "Warm standby in second EU region",
+    "annual_cost_eur": 120000,
+    "risks": [
+      "R3"
+    ],
+    "sle_eur": 900000,
+    "aro_before": 0.2,
+    "aro_after": 0.05,
+    "decision": "DEC-008"
+  },
+  {
+    "id": "INV-3",
+    "name": "Privileged access management (PAM)",
+    "annual_cost_eur": 45000,
+    "risks": [
+      "R2",
+      "R6"
+    ],
+    "sle_eur": 800000,
+    "aro_before": 0.15,
+    "aro_after": 0.08,
+    "decision": null
+  },
+  {
+    "id": "INV-4",
+    "name": "Security awareness & phishing programme",
+    "annual_cost_eur": 15000,
+    "risks": [
+      "R8",
+      "R2"
+    ],
+    "sle_eur": 150000,
+    "aro_before": 0.3,
+    "aro_after": 0.15,
+    "decision": null
+  },
+  {
+    "id": "INV-5",
+    "name": "Third-party risk management platform",
+    "annual_cost_eur": 30000,
+    "risks": [
+      "R5"
+    ],
+    "sle_eur": 600000,
+    "aro_before": 0.1,
+    "aro_after": 0.07,
+    "decision": null
+  }
+]

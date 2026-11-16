@@ -1,0 +1,276 @@
+[
+  {
+    "id": "R1",
+    "name": "Ransomware on production",
+    "category": "Cyber",
+    "owner": "CTO",
+    "inherent": {
+      "likelihood": 4,
+      "impact": 5
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 5
+    },
+    "controls": [
+      "MFA everywhere",
+      "EDR on all endpoints",
+      "Immutable backups",
+      "Network segmentation"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-03-31",
+    "decisions": [
+      "DEC-001",
+      "DEC-007"
+    ],
+    "frameworks": [
+      "NIS2 Art.21(2)(c)",
+      "ISO27001 A.8.13"
+    ]
+  },
+  {
+    "id": "R2",
+    "name": "Data breach via compromised account",
+    "category": "Cyber",
+    "owner": "CTO",
+    "inherent": {
+      "likelihood": 4,
+      "impact": 5
+    },
+    "residual": {
+      "likelihood": 3,
+      "impact": 4
+    },
+    "controls": [
+      "Company-wide MFA",
+      "SSO",
+      "Quarterly access reviews"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-06-30",
+    "decisions": [
+      "DEC-001"
+    ],
+    "frameworks": [
+      "NIS2 Art.21(2)(i)",
+      "NIS2 Art.21(2)(j)",
+      "GDPR Art.32"
+    ]
+  },
+  {
+    "id": "R3",
+    "name": "Prolonged SaaS outage (cloud region failure)",
+    "category": "Resilience",
+    "owner": "CTO",
+    "inherent": {
+      "likelihood": 3,
+      "impact": 5
+    },
+    "residual": {
+      "likelihood": 3,
+      "impact": 5
+    },
+    "controls": [
+      "Multi-AZ deployment",
+      "Daily backups"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-06-30",
+    "decisions": [
+      "DEC-008"
+    ],
+    "frameworks": [
+      "NIS2 Art.21(2)(c)",
+      "DORA Art.30"
+    ]
+  },
+  {
+    "id": "R4",
+    "name": "Regulatory non-compliance (GDPR / NIS2)",
+    "category": "Compliance",
+    "owner": "CEO",
+    "inherent": {
+      "likelihood": 3,
+      "impact": 4
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 4
+    },
+    "controls": [
+      "DPO appointed",
+      "NIS2 programme",
+      "Records of processing"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-03-31",
+    "decisions": [
+      "DEC-006"
+    ],
+    "frameworks": [
+      "NIS2 Art.20",
+      "GDPR Art.24"
+    ]
+  },
+  {
+    "id": "R5",
+    "name": "Supply-chain compromise (vendor or open-source dependency)",
+    "category": "Third party",
+    "owner": "COO",
+    "inherent": {
+      "likelihood": 3,
+      "impact": 4
+    },
+    "residual": {
+      "likelihood": 3,
+      "impact": 4
+    },
+    "controls": [
+      "Dependency scanning in CI"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-06-30",
+    "decisions": [],
+    "frameworks": [
+      "NIS2 Art.21(2)(d)",
+      "DORA Art.28"
+    ]
+  },
+  {
+    "id": "R6",
+    "name": "Insider or privileged-account misuse",
+    "category": "Cyber",
+    "owner": "CTO",
+    "inherent": {
+      "likelihood": 2,
+      "impact": 4
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 3
+    },
+    "controls": [
+      "Access reviews",
+      "Admin activity logging"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-03-31",
+    "decisions": [],
+    "frameworks": [
+      "ISO27001 A.8.2"
+    ]
+  },
+  {
+    "id": "R7",
+    "name": "Exploitation of an internet-facing vulnerability",
+    "category": "Cyber",
+    "owner": "CTO",
+    "inherent": {
+      "likelihood": 4,
+      "impact": 4
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 4
+    },
+    "controls": [
+      "Risk-based patching SLAs",
+      "WAF",
+      "External attack-surface scanning"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2026-12-31",
+    "decisions": [
+      "DEC-002"
+    ],
+    "frameworks": [
+      "NIS2 Art.21(2)(e)"
+    ]
+  },
+  {
+    "id": "R8",
+    "name": "Payment fraud via business e-mail compromise",
+    "category": "Fraud",
+    "owner": "CFO",
+    "inherent": {
+      "likelihood": 3,
+      "impact": 3
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 3
+    },
+    "controls": [
+      "Call-back procedure for bank detail changes",
+      "Phishing simulations"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2026-12-31",
+    "decisions": [],
+    "frameworks": [
+      "NIS2 Art.21(2)(g)"
+    ]
+  },
+  {
+    "id": "R9",
+    "name": "Late detection (no 24/7 monitoring)",
+    "category": "Cyber",
+    "owner": "CEO",
+    "inherent": {
+      "likelihood": 4,
+      "impact": 4
+    },
+    "residual": {
+      "likelihood": 3,
+      "impact": 4
+    },
+    "controls": [
+      "Centralised logging",
+      "Alerting during business hours"
+    ],
+    "treatment": "Accept (time-bound) then reduce",
+    "status": "Active",
+    "target_date": "2027-01-31",
+    "decisions": [
+      "DEC-004",
+      "DEC-007"
+    ],
+    "frameworks": [
+      "NIS2 Art.21(2)(b)"
+    ]
+  },
+  {
+    "id": "R10",
+    "name": "Key-person dependency in DevOps",
+    "category": "Operational",
+    "owner": "CHRO",
+    "inherent": {
+      "likelihood": 3,
+      "impact": 3
+    },
+    "residual": {
+      "likelihood": 2,
+      "impact": 3
+    },
+    "controls": [
+      "Runbooks",
+      "Shared on-call rota"
+    ],
+    "treatment": "Reduce",
+    "status": "Active",
+    "target_date": "2027-03-31",
+    "decisions": [],
+    "frameworks": [
+      "ISO27001 A.5.30"
+    ]
+  }
+]

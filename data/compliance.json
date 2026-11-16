@@ -1,0 +1,148 @@
+{
+  "NIS2": {
+    "note": "Likely in scope as an important entity (medium-sized digital provider); to be confirmed under national transposition.",
+    "requirements": [
+      {
+        "ref": "Art.20",
+        "title": "Governance: management approval, oversight and training",
+        "status": "partial",
+        "score": 60,
+        "owner": "CEO",
+        "evidence": "Board approved programme (DEC-006); board training scheduled Q1 2027"
+      },
+      {
+        "ref": "Art.21(2)(a)",
+        "title": "Risk analysis and information system security policies",
+        "status": "implemented",
+        "score": 85,
+        "owner": "CISO",
+        "evidence": "Risk register, ISMS policy set"
+      },
+      {
+        "ref": "Art.21(2)(b)",
+        "title": "Incident handling",
+        "status": "partial",
+        "score": 65,
+        "owner": "CISO",
+        "evidence": "IR plan tested in 2026 incident; 24/7 detection pending MDR"
+      },
+      {
+        "ref": "Art.21(2)(c)",
+        "title": "Business continuity, backup, disaster recovery, crisis management",
+        "status": "partial",
+        "score": 55,
+        "owner": "CIO",
+        "evidence": "Immutable backups; RTO gap on SaaS platform (DEC-008)"
+      },
+      {
+        "ref": "Art.21(2)(d)",
+        "title": "Supply chain security",
+        "status": "partial",
+        "score": 45,
+        "owner": "COO",
+        "evidence": "Vendor inventory; 57% of critical vendors assessed"
+      },
+      {
+        "ref": "Art.21(2)(e)",
+        "title": "Security in acquisition, development and maintenance, incl. vulnerability handling",
+        "status": "partial",
+        "score": 70,
+        "owner": "CTO",
+        "evidence": "Release security gate (DEC-002); risk-based patching SLAs"
+      },
+      {
+        "ref": "Art.21(2)(f)",
+        "title": "Assessing the effectiveness of risk-management measures",
+        "status": "partial",
+        "score": 60,
+        "owner": "CISO",
+        "evidence": "KPI dashboard; external audit planned"
+      },
+      {
+        "ref": "Art.21(2)(g)",
+        "title": "Cyber hygiene and training",
+        "status": "implemented",
+        "score": 80,
+        "owner": "CHRO",
+        "evidence": "91% training completion; phishing simulations"
+      },
+      {
+        "ref": "Art.21(2)(h)",
+        "title": "Cryptography and encryption",
+        "status": "implemented",
+        "score": 85,
+        "owner": "CTO",
+        "evidence": "Encryption at rest and in transit; key management policy"
+      },
+      {
+        "ref": "Art.21(2)(i)",
+        "title": "HR security, access control and asset management",
+        "status": "partial",
+        "score": 65,
+        "owner": "CIO",
+        "evidence": "Access reviews quarterly; privileged review at 75%"
+      },
+      {
+        "ref": "Art.21(2)(j)",
+        "title": "MFA and secured communications",
+        "status": "implemented",
+        "score": 90,
+        "owner": "CIO",
+        "evidence": "MFA coverage 98%; out-of-band crisis channel"
+      },
+      {
+        "ref": "Art.23",
+        "title": "Incident reporting (24h early warning, 72h notification, 1-month report)",
+        "status": "implemented",
+        "score": 80,
+        "owner": "CISO",
+        "evidence": "Reporting procedure exercised in DEC-005"
+      }
+    ]
+  },
+  "DORA": {
+    "note": "Applies indirectly: the company is an ICT third-party service provider to financial-sector customers, who must flow DORA requirements into contracts.",
+    "requirements": [
+      {
+        "ref": "Art.30",
+        "title": "Contractual provisions (service levels, audit rights, exit, sub-contracting)",
+        "status": "partial",
+        "score": 60,
+        "owner": "Legal",
+        "evidence": "DORA-ready contract annex drafted"
+      },
+      {
+        "ref": "Art.28(8)",
+        "title": "Exit strategies supported for customers",
+        "status": "partial",
+        "score": 50,
+        "owner": "CTO",
+        "evidence": "Data export available; exit plan not yet tested with a customer"
+      },
+      {
+        "ref": "Art.19",
+        "title": "Support customers' major ICT incident reporting",
+        "status": "implemented",
+        "score": 80,
+        "owner": "CISO",
+        "evidence": "Customer notification within 24h contractually committed"
+      },
+      {
+        "ref": "Art.11",
+        "title": "ICT business continuity supporting customers' resilience",
+        "status": "partial",
+        "score": 55,
+        "owner": "CIO",
+        "evidence": "See BIA; second region planned (DEC-008)"
+      },
+      {
+        "ref": "Art.24-26",
+        "title": "Participation in customers' resilience testing",
+        "status": "planned",
+        "score": 30,
+        "owner": "CISO",
+        "evidence": "Pentest reports shared; TLPT participation not yet organised"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "process": "SaaS platform (customer-facing)",
+    "owner": "CTO",
+    "rto_target_h": 4,
+    "rpo_target_h": 1,
+    "rto_capability_h": 12,
+    "rpo_capability_h": 1,
+    "impact": "Revenue, contractual SLA penalties, reputation"
+  },
+  {
+    "process": "Customer support",
+    "owner": "COO",
+    "rto_target_h": 24,
+    "rpo_target_h": 24,
+    "rto_capability_h": 8,
+    "rpo_capability_h": 4,
+    "impact": "Customer satisfaction"
+  },
+  {
+    "process": "Billing and invoicing",
+    "owner": "CFO",
+    "rto_target_h": 72,
+    "rpo_target_h": 24,
+    "rto_capability_h": 48,
+    "rpo_capability_h": 24,
+    "impact": "Cash collection"
+  },
+  {
+    "process": "Email and collaboration",
+    "owner": "CIO",
+    "rto_target_h": 8,
+    "rpo_target_h": 4,
+    "rto_capability_h": 4,
+    "rpo_capability_h": 1,
+    "impact": "Internal productivity, crisis communication"
+  },
+  {
+    "process": "Source code and CI/CD",
+    "owner": "CTO",
+    "rto_target_h": 24,
+    "rpo_target_h": 4,
+    "rto_capability_h": 36,
+    "rpo_capability_h": 24,
+    "impact": "Ability to ship security fixes"
+  },
+  {
+    "process": "Payroll",
+    "owner": "CHRO",
+    "rto_target_h": 120,
+    "rpo_target_h": 24,
+    "rto_capability_h": 72,
+    "rpo_capability_h": 24,
+    "impact": "Employee trust, legal obligations"
+  }
+]

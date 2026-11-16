@@ -1,0 +1,174 @@
+[
+  {
+    "id": "DEC-001",
+    "date": "2025-01-15",
+    "title": "Company-wide MFA, including executives and contractors",
+    "context": "Account compromise is the main initial-access vector; 18% of staff had MFA.",
+    "options": [
+      "MFA for admins only",
+      "Company-wide MFA",
+      "Passwordless roadmap first"
+    ],
+    "decision": "Company-wide MFA within 60 days, phishing-resistant for administrators.",
+    "rationale": "Highest risk reduction per euro; prerequisite for any zero-trust step.",
+    "cost_eur": 12000,
+    "risks": [
+      "R1",
+      "R2"
+    ],
+    "decided_by": "CISO, endorsed by COMEX",
+    "status": "Implemented",
+    "review_date": "2026-01-15",
+    "outcome": "MFA coverage 98%; no account takeover since rollout."
+  },
+  {
+    "id": "DEC-002",
+    "date": "2025-04-03",
+    "title": "Delay a feature release by two weeks for a security review",
+    "context": "Pentest found an authorisation flaw exposing tenant data, two days before launch.",
+    "options": [
+      "Ship and hotfix",
+      "Ship behind feature flag",
+      "Delay two weeks"
+    ],
+    "decision": "Delay the release by two weeks and fix the flaw.",
+    "rationale": "Cross-tenant exposure would breach customer contracts and GDPR; reputational impact outweighs two weeks of delay.",
+    "cost_eur": 0,
+    "risks": [
+      "R7",
+      "R4"
+    ],
+    "decided_by": "CISO with CPO, arbitrated by CEO",
+    "status": "Implemented",
+    "review_date": "2025-10-03",
+    "outcome": "Release shipped without incident; security review now a release gate."
+  },
+  {
+    "id": "DEC-003",
+    "date": "2025-06-20",
+    "title": "Decline unrealistic contractual security guarantees",
+    "context": "A large prospect required a 'zero breach' guarantee with uncapped liability.",
+    "options": [
+      "Accept as is",
+      "Negotiate standard security annex",
+      "Decline the deal"
+    ],
+    "decision": "Propose a standard security annex; decline when the prospect refused.",
+    "rationale": "An unmeasurable guarantee creates unbounded legal exposure; credibility depends on promises we can keep.",
+    "cost_eur": 0,
+    "risks": [
+      "R4"
+    ],
+    "decided_by": "CEO on CISO and legal advice",
+    "status": "Implemented",
+    "review_date": "2026-06-20",
+    "outcome": "Standard security annex created and reused in 14 contracts."
+  },
+  {
+    "id": "DEC-004",
+    "date": "2025-09-10",
+    "title": "Prioritise prevention over a SIEM in the 2026 budget",
+    "context": "Budget allowed either a SIEM project or prevention controls (EDR, backups, MFA).",
+    "options": [
+      "Build a SIEM",
+      "Prevention first and accept detection gap",
+      "Split the budget"
+    ],
+    "decision": "Fund prevention first; formally accept the detection gap for 12 months (A1).",
+    "rationale": "A SIEM without analysts adds cost but little detection; prevention reduces likelihood immediately.",
+    "cost_eur": 95000,
+    "risks": [
+      "R1",
+      "R9"
+    ],
+    "decided_by": "COMEX",
+    "status": "Superseded by DEC-007",
+    "review_date": "2026-09-10",
+    "outcome": "EDR and immutable backups deployed; acceptance A1 reached expiry and must now be closed by DEC-007."
+  },
+  {
+    "id": "DEC-005",
+    "date": "2026-02-12",
+    "title": "Incident disclosure strategy after the ransomware case",
+    "context": "Ransomware encrypted part of production (see incident case); customers and regulator to be informed.",
+    "options": [
+      "Minimal disclosure",
+      "Transparent disclosure within regulatory deadlines",
+      "Delay until full investigation"
+    ],
+    "decision": "Transparent, staged disclosure aligned with NIS2 timelines (24h / 72h / 1 month) and GDPR 72h.",
+    "rationale": "Trust is the product; early factual communication limits reputational damage.",
+    "cost_eur": 0,
+    "risks": [
+      "R1",
+      "R4"
+    ],
+    "decided_by": "Crisis committee chaired by CEO",
+    "status": "Implemented",
+    "review_date": "2026-08-12",
+    "outcome": "No customer churn attributed to the incident; regulator acknowledged timely notification."
+  },
+  {
+    "id": "DEC-006",
+    "date": "2026-03-05",
+    "title": "Launch a NIS2 compliance programme with board oversight",
+    "context": "The company is likely in NIS2 scope as an important entity; management bodies must approve and oversee measures.",
+    "options": [
+      "Wait for national transposition details",
+      "Launch programme now"
+    ],
+    "decision": "Launch a 12-month programme, board training, quarterly reporting to the board.",
+    "rationale": "Management liability and customer due-diligence pressure make waiting more costly than acting.",
+    "cost_eur": 60000,
+    "risks": [
+      "R4"
+    ],
+    "decided_by": "Board",
+    "status": "In progress",
+    "review_date": "2026-12-05",
+    "outcome": "Readiness tracked in compliance/nis2-dora-alignment.md."
+  },
+  {
+    "id": "DEC-007",
+    "date": "2026-06-15",
+    "title": "Buy managed detection & response (MDR) rather than build a SOC",
+    "context": "Detection gap (R9) persisted after DEC-004; hiring 5 analysts for 24/7 coverage is not realistic.",
+    "options": [
+      "Build internal 24/7 SOC",
+      "Buy MDR service",
+      "Status quo"
+    ],
+    "decision": "Contract an MDR provider with 24/7 response; keep incident command in-house.",
+    "rationale": "Make-or-buy: MDR delivers 24/7 coverage at about one third of an internal SOC cost, faster.",
+    "cost_eur": 85000,
+    "risks": [
+      "R1",
+      "R9"
+    ],
+    "decided_by": "CISO and CIO, approved by COMEX",
+    "status": "In progress",
+    "review_date": "2027-01-31",
+    "outcome": "Contract signed; onboarding due January 2027. Acceptance A2 bridges the gap until then."
+  },
+  {
+    "id": "DEC-008",
+    "date": "2026-09-22",
+    "title": "Fund a warm standby in a second cloud region",
+    "context": "BIA shows the SaaS platform RTO (4h) is not achievable from backups alone (12h).",
+    "options": [
+      "Accept current RTO",
+      "Warm standby in second region",
+      "Active-active multi-region"
+    ],
+    "decision": "Warm standby in a second EU region; active-active rejected as disproportionate.",
+    "rationale": "Closes the RTO gap for the core revenue service at 40% of the active-active cost.",
+    "cost_eur": 120000,
+    "risks": [
+      "R3"
+    ],
+    "decided_by": "CIO, approved by COMEX",
+    "status": "Planned",
+    "review_date": "2027-06-30",
+    "outcome": "Pending."
+  }
+]

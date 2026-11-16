@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Cloud IaaS provider",
+    "service": "Hosting of the SaaS platform",
+    "criticality": 5,
+    "data_access": "sensitive",
+    "assessment_score": 82,
+    "last_assessed": "2026-05-10",
+    "security_clauses": true,
+    "exit_plan": true
+  },
+  {
+    "name": "Identity provider (SSO/MFA)",
+    "service": "Workforce authentication",
+    "criticality": 5,
+    "data_access": "personal",
+    "assessment_score": 88,
+    "last_assessed": "2026-02-01",
+    "security_clauses": true,
+    "exit_plan": false
+  },
+  {
+    "name": "MDR provider",
+    "service": "24/7 detection and response",
+    "criticality": 4,
+    "data_access": "sensitive",
+    "assessment_score": null,
+    "last_assessed": null,
+    "security_clauses": true,
+    "exit_plan": false
+  },
+  {
+    "name": "Payment processor",
+    "service": "Customer billing",
+    "criticality": 4,
+    "data_access": "personal",
+    "assessment_score": 75,
+    "last_assessed": "2025-09-15",
+    "security_clauses": true,
+    "exit_plan": true
+  },
+  {
+    "name": "Offshore development contractor",
+    "service": "Feature development",
+    "criticality": 4,
+    "data_access": "sensitive",
+    "assessment_score": 48,
+    "last_assessed": "2025-07-01",
+    "security_clauses": false,
+    "exit_plan": false
+  },
+  {
+    "name": "Customer support SaaS",
+    "service": "Ticketing",
+    "criticality": 3,
+    "data_access": "personal",
+    "assessment_score": null,
+    "last_assessed": null,
+    "security_clauses": false,
+    "exit_plan": false
+  },
+  {
+    "name": "Email & collaboration suite",
+    "service": "Office productivity",
+    "criticality": 4,
+    "data_access": "sensitive",
+    "assessment_score": 79,
+    "last_assessed": "2026-01-20",
+    "security_clauses": true,
+    "exit_plan": false
+  },
+  {
+    "name": "Marketing automation tool",
+    "service": "Newsletters",
+    "criticality": 2,
+    "data_access": "personal",
+    "assessment_score": null,
+    "last_assessed": null,
+    "security_clauses": false,
+    "exit_plan": false
+  }
+]

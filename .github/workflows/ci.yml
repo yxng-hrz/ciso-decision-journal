@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  governance-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Validate governance data (referential integrity)
+        run: python tools/ciso.py validate
+      - run: python -m pytest -q
+      - name: Regenerate the board pack
+        run: python tools/ciso.py board-pack --output reports/board-pack.md

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "K1",
+    "name": "MFA coverage (all accounts)",
+    "unit": "%",
+    "value": 98,
+    "previous": 95,
+    "target": 100,
+    "amber": 95,
+    "direction": "higher"
+  },
+  {
+    "id": "K2",
+    "name": "Critical vulnerabilities fixed within SLA",
+    "unit": "%",
+    "value": 82,
+    "previous": 71,
+    "target": 95,
+    "amber": 85,
+    "direction": "higher"
+  },
+  {
+    "id": "K3",
+    "name": "Mean time to detect (MTTD)",
+    "unit": "h",
+    "value": 36,
+    "previous": 52,
+    "target": 24,
+    "amber": 48,
+    "direction": "lower"
+  },
+  {
+    "id": "K4",
+    "name": "Phishing simulation click rate",
+    "unit": "%",
+    "value": 6,
+    "previous": 11,
+    "target": 5,
+    "amber": 8,
+    "direction": "lower"
+  },
+  {
+    "id": "K5",
+    "name": "Backup restore tests successful",
+    "unit": "%",
+    "value": 100,
+    "previous": 100,
+    "target": 100,
+    "amber": 95,
+    "direction": "higher"
+  },
+  {
+    "id": "K6",
+    "name": "Privileged accounts reviewed this quarter",
+    "unit": "%",
+    "value": 75,
+    "previous": 60,
+    "target": 100,
+    "amber": 90,
+    "direction": "higher"
+  },
+  {
+    "id": "K7",
+    "name": "Critical vendors with a current security assessment",
+    "unit": "%",
+    "value": 57,
+    "previous": 40,
+    "target": 90,
+    "amber": 75,
+    "direction": "higher"
+  },
+  {
+    "id": "K8",
+    "name": "Security training completion",
+    "unit": "%",
+    "value": 91,
+    "previous": 84,
+    "target": 95,
+    "amber": 90,
+    "direction": "higher"
+  },
+  {
+    "id": "K9",
+    "name": "Overdue risk-treatment actions",
+    "unit": "",
+    "value": 4,
+    "previous": 7,
+    "target": 0,
+    "amber": 2,
+    "direction": "lower"
+  }
+]

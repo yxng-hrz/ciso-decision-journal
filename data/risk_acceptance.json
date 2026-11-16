@@ -1,0 +1,45 @@
+[
+  {
+    "id": "A1",
+    "risk_id": "R9",
+    "description": "No in-house SIEM platform",
+    "justification": "Cost vs maturity mismatch for a 120-person company; detection to be covered by an MDR service",
+    "compensating_controls": [
+      "Centralised log retention 12 months",
+      "Cloud-native alerting"
+    ],
+    "approved_by": "Executive Committee",
+    "risk_owner": "CEO",
+    "approved_on": "2025-11-01",
+    "expires_on": "2026-11-01"
+  },
+  {
+    "id": "A2",
+    "risk_id": "R9",
+    "description": "No 24/7 internal SOC",
+    "justification": "Limited scale and staffing; MDR contract under negotiation",
+    "compensating_controls": [
+      "Business-hours monitoring",
+      "On-call escalation for critical alerts"
+    ],
+    "approved_by": "Executive Committee",
+    "risk_owner": "CEO",
+    "approved_on": "2026-06-15",
+    "expires_on": "2026-12-15"
+  },
+  {
+    "id": "A3",
+    "risk_id": "R3",
+    "description": "Single cloud provider (concentration risk)",
+    "justification": "Business scalability and cost; exit plan documented",
+    "compensating_controls": [
+      "Multi-AZ",
+      "Infrastructure as code",
+      "Documented exit plan"
+    ],
+    "approved_by": "Board",
+    "risk_owner": "CTO",
+    "approved_on": "2026-03-01",
+    "expires_on": "2027-03-01"
+  }
+]
